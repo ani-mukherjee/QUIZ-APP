@@ -44,10 +44,10 @@ submit.addEventListener('click',(e)=>{
         count++;
     }
     if(count==10){
-        document.getElementById("result").innerHTML= `Excellent performance. You got full marks. Your score is ${count} out of 10.`;
+        document.getElementById("result").innerHTML= `Excellent. You got full marks. Your score is ${count} out of 10.`;
     }
     else if(count>=8){
-        document.getElementById("result").innerHTML= `Very good performance. Your score is ${count} out of 10.`;
+        document.getElementById("result").innerHTML= `Well Done. Your score is ${count} out of 10.`;
     }
     else if(count>=6){
         document.getElementById("result").innerHTML= `Good performance. Your score is ${count} out of 10. Keep it up.`;
