@@ -55,7 +55,10 @@ submit.addEventListener('click',(e)=>{
     else if(count>=4){
         document.getElementById("result").innerHTML= `Moderate performance! Your score is ${count} out of 10. You need to brush up your knowledge.`; 
     }
-    else{
+    else if(count>=1){
         document.getElementById("result").innerHTML= `Poor performance!! Your score is ${count} out of 10. You need to improve.`; 
+    }
+    else{
+        document.getElementById("result").innerHTML= `Sorry!! Either Your score is ${count} out of 10 or you have not given an answer to any question`; 
     }
 })
