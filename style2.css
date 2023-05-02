@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(193, 192, 215);
+}
+h1{
+    color: rgb(59, 77, 133);
+    margin: 30px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(59, 77, 133);
+    margin: 30px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+.quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+}
+.html{
+    text-align: center;
+    background-color:#f16529;
+    padding: 40px;
+    width: 50%;
+    height: 682px;
+    margin-right: 35px;
+    border-radius: 25px;
+}
+.html:hover{
+ background-color: #e44d26;
+}
+.css{
+    text-align: center;
+    background-color:#51a3dc;
+    padding: 40px;
+    margin-right: 35px;
+    width: 50%;
+    height: 685px;
+    border-radius: 25px;
+}
+.css:hover{
+    background-color: #1f72b5;
+}
+.javascript{
+    text-align: center;
+    background-color:#ffdd14;
+    padding: 40px;
+    width: 50%;
+    height: 687px;
+    border-radius: 25px;
+}
+.javascript:hover{
+    background-color: #e6c72f;
+}
+.main{
+    padding: 35px;
+}
+img{
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+h3{
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(76, 23, 83);
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(76, 23, 83);
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 15px;
+    padding:0 6px 0 6px;
+    margin-bottom: 25px;
+}
+button{
+    width: 100%;
+    background-color:rgb(43, 193, 43);
+    padding: 8px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(120, 238, 120);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* For mobile */
+@media only screen and (max-width: 700px){
+    h1{
+        color: rgb(59, 77, 133);
+        margin: 25px;
+        padding: 2px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 26px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2{
+        color: rgb(59, 77, 133);
+        margin: 15px;
+        padding: 2px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    .quiz{
+        display: block;
+        margin: 10px ;
+        padding: 10px;
+    }
+    .html{
+        text-align: center;
+        background-color:#f16529;
+        padding: 30px;
+        width: 320px;
+        height: 582px;
+        margin-bottom:20px;
+        border-radius: 20px;
+    }
+    .css{
+        text-align: center;
+        background-color:#51a3dc;
+        padding: 30px;
+        margin-bottom: 20px;
+        width: 320px;
+        height: 585px;
+        border-radius: 20px;
+    }
+    .javascript{
+        text-align: center;
+        background-color:#ffdd14;
+        padding: 30px;
+        width: 320px;
+        height: 602px;
+        border-radius: 20px;
+    }
+    .main{
+        padding: 5px;
+    }
+    img{
+        border-radius: 15px;
+        margin-bottom: 7px;
+    }
+    h3{
+        margin-bottom: 7px;
+        font-size: 16px;
+        color: rgb(76, 23, 83);
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        margin-bottom: 20px;
+        color: rgb(76, 23, 83);
+        font-family:cursive;
+        font-weight: bold;
+        font-size: 15px;
+        padding:0 6px 0 6px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+
+}
