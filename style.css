@@ -59,6 +59,7 @@ p{
     font-family: monospace;
     font-weight: 600;
     font-size: 28px;
+    margin-top: 15px;
 }
 
 /* for mobile */
@@ -93,5 +94,6 @@ p{
         font-family: monospace;
         font-weight: 600;
         font-size: 18px;
+        margin-top: 15px;
     }
 }
