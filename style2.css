@@ -60,7 +60,7 @@ h2{
     background-color:#ffdd14;
     padding: 40px;
     width: 50%;
-    height: 687px;
+    height: 688px;
     border-radius: 25px;
 }
 .javascript:hover{
@@ -106,7 +106,7 @@ a{
 }
 
 /* For mobile */
-@media only screen and (max-width: 1050px){
+@media only screen and (max-width: 768px){
     h1{
         color: rgb(59, 77, 133);
         margin: 25px;
@@ -128,7 +128,7 @@ a{
     }
     .quiz{
         display: block;
-        margin: 10px ;
+        margin: 9px ;
         padding: 10px;
     }
     .html{
@@ -185,7 +185,60 @@ a{
         font-weight: 700;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+}
 
 
+/* for tablet  */
 
+@media only screen and (min-width: 769px) and (max-width:1200px){
+    h1{
+        color: rgb(59, 77, 133);
+        margin: 25px;
+        padding: 2px;
+        text-align: center;
+        font-weight: 900;
+        font-size: 36px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h2{
+        color: rgb(59, 77, 133);
+        margin: 15px;
+        padding: 2px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+    }
+    .quiz{
+        display: block;
+        margin: 8px ;
+        padding: 10px;
+    }
+    .html{
+        text-align: center;
+        background-color:#f16529;
+        padding: 30px;
+        width: 780px;
+        height: 582px;
+        margin-bottom:20px;
+        border-radius: 20px;
+    }
+    .css{
+        text-align: center;
+        background-color:#51a3dc;
+        padding: 30px;
+        margin-bottom: 20px;
+        width: 780px;
+        height: 585px;
+        border-radius: 20px;
+    }
+    .javascript{
+        text-align: center;
+        background-color:#ffdd14;
+        padding: 30px;
+        width: 780px;
+        height: 602px;
+        border-radius: 20px;
+    }
 }

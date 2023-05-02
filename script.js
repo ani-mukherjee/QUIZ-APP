@@ -44,21 +44,23 @@ submit.addEventListener('click',(e)=>{
         count++;
     }
     if(count==10){
-        document.getElementById("result").innerHTML= `Excellent. You got full marks. Your score is ${count} out of 10.`;
+        document.getElementById("result").innerHTML= `Excellent. You got full marks.<br>${count} /10`;
     }
     else if(count>=8){
-        document.getElementById("result").innerHTML= `Well Done. Your score is ${count} out of 10.`;
+        document.getElementById("result").innerHTML= `Well Done. You got<br>${count} /10`;
     }
     else if(count>=6){
-        document.getElementById("result").innerHTML= `Good performance. Your score is ${count} out of 10. Keep it up.`;
+        document.getElementById("result").innerHTML= `Good score. You got<br>${count} /10<br> Keep it up.`;
     }
     else if(count>=4){
-        document.getElementById("result").innerHTML= `Moderate performance! Your score is ${count} out of 10. You need to brush up your knowledge.`; 
+        document.getElementById("result").innerHTML= `Moderate score! You got<br>${count} /10 <br> You need to practice more.`; 
     }
     else if(count>=1){
-        document.getElementById("result").innerHTML= `Poor performance!! Your score is ${count} out of 10. You need to improve.`; 
+        document.getElementById("result").innerHTML= `Poor score!! You got<br>${count} /10.<br> You need to improve.`; 
     }
     else{
-        document.getElementById("result").innerHTML= `Sorry!! Either Your score is ${count} out of 10 or you have not given an answer to any question`; 
+        document.getElementById("result").innerHTML= `Sorry!! Either You got<br>${count} /10 <br>or you didn't give any answer.`; 
     }
+    document.getElementById("solution").style.display="block";
+    document.getElementById("solution").innerHTML= "Show Explanation";
 })
