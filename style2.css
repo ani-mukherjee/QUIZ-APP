@@ -136,7 +136,7 @@ a{
         background-color:#f16529;
         padding: 30px;
         width: 325px;
-        height: 582px;
+        height: 567px;
         margin-bottom:20px;
         border-radius: 20px;
     }
@@ -146,7 +146,7 @@ a{
         padding: 30px;
         margin-bottom: 20px;
         width: 325px;
-        height: 585px;
+        height: 570px;
         border-radius: 20px;
     }
     .javascript{
@@ -154,7 +154,7 @@ a{
         background-color:#ffdd14;
         padding: 30px;
         width: 325px;
-        height: 602px;
+        height: 587px;
         border-radius: 20px;
     }
     .main{
@@ -162,19 +162,19 @@ a{
     }
     img{
         border-radius: 15px;
-        margin-bottom: 9px;
+        margin-bottom: 7px;
     }
     h3{
-        margin-bottom: 8px;
+        margin-bottom: 7px;
         font-size: 16px;
         color: rgb(76, 23, 83);
         font-weight: 900;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     p{
-        margin-bottom: 23px;
+        margin-bottom: 20px;
         color: rgb(76, 23, 83);
-        font-family:cursive;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         font-size: 16px;
         padding:0 6px 0 6px;
