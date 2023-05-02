@@ -106,7 +106,7 @@ a{
 }
 
 /* For mobile */
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1050px){
     h1{
         color: rgb(59, 77, 133);
         margin: 25px;
@@ -128,7 +128,7 @@ a{
     }
     .quiz{
         display: block;
-        margin: 11px ;
+        margin: 10px ;
         padding: 10px;
     }
     .html{
