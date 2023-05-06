@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(193, 192, 215);
+    background-image: url(https://media.istockphoto.com/id/1055056612/photo/coding-late-into-the-night.jpg?s=612x612&w=0&k=20&c=0YSrM76hg4_9CivkEwhHOkyJZWMiV-4gJjOfKeE4qUs=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 marquee{
-    color: rgb(59, 77, 133);
+    color: rgb(160, 244, 51);
     margin: 37px 10px 12px 10px;
     padding: 2px;
     font-weight: 900;
@@ -15,7 +18,7 @@ marquee{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h2{
-    color: rgb(59, 77, 133);
+    color: rgb(160, 244, 51);
     margin: 10px;
     padding: 2px;
     text-align: center;
@@ -111,7 +114,7 @@ a{
 /* For mobile */
 @media only screen and (max-width: 700px){
     marquee{
-        color: rgb(59, 77, 133);
+        color:  rgb(160, 244, 51);
         margin: 22px 10px 10px 10px;
         padding: 1px;
         font-weight: 900;
@@ -119,7 +122,7 @@ a{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     h2{
-        color: rgb(59, 77, 133);
+        color:  rgb(160, 244, 51);
         margin: 10px;
         padding: 2px;
         text-align: center;
@@ -198,7 +201,7 @@ a{
 
 @media only screen and (min-width: 701px) and (max-width:1200px){
     marquee{
-        color: rgb(59, 77, 133);
+        color:  rgb(160, 244, 51);
         margin: 22px 10px 10px 10px;;
         padding: 2px;
         text-align: center;
@@ -207,7 +210,7 @@ a{
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     h2{
-        color: rgb(59, 77, 133);
+        color:  rgb(160, 244, 51);
         margin: 15px;
         padding: 2px;
         text-align: center;
