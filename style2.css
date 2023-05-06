@@ -110,24 +110,25 @@ a{
     marquee{
         color: rgb(59, 77, 133);
         margin: 22px;
-        padding: 2px;
+        padding: 1px;
         font-weight: 900;
-        font-size: 26px;
+        font-size: 30px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     h2{
         color: rgb(59, 77, 133);
-        margin: 10px;
+        margin: 9px;
         padding: 2px;
         text-align: center;
         font-weight: 800;
         font-size: 25px;
+        font-weight: bold;
         letter-spacing: 1px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
     }
     .quiz{
         display: block;
-        margin: 9px ;
+        margin: 8px;
         padding: 10px;
     }
     .html{
