@@ -8,7 +8,7 @@ body{
 }
 marquee{
     color: rgb(59, 77, 133);
-    margin: 32px;
+    margin: 37px 10px 12px 10px;
     padding: 2px;
     font-weight: 900;
     font-size: 45px;
@@ -16,7 +16,7 @@ marquee{
 }
 h2{
     color: rgb(59, 77, 133);
-    margin: 30px;
+    margin: 10px;
     padding: 2px;
     text-align: center;
     font-weight: 900;
@@ -36,7 +36,7 @@ h2{
     background-color:#f16529;
     padding: 40px;
     width: 50%;
-    height: 682px;
+    height: 692px;
     margin-right: 35px;
     border-radius: 25px;
 }
@@ -49,7 +49,7 @@ h2{
     padding: 40px;
     margin-right: 35px;
     width: 50%;
-    height: 685px;
+    height: 695px;
     border-radius: 25px;
 }
 .css:hover{
@@ -60,7 +60,7 @@ h2{
     background-color:#ffdd14;
     padding: 40px;
     width: 50%;
-    height: 688px;
+    height: 698px;
     border-radius: 25px;
 }
 .javascript:hover{
@@ -72,6 +72,8 @@ h2{
 img{
     border-radius: 15px;
     margin-bottom: 15px;
+    width: 100%;
+    height: auto;
 }
 h3{
     margin-bottom: 10px;
@@ -82,9 +84,9 @@ h3{
 }
 p{
     color: rgb(255, 255, 255);
-    font-family:cursive;
+    font-family:sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     padding:0 5px 0 5px;
     margin-bottom: 25px;
 }
@@ -107,10 +109,10 @@ a{
 }
 
 /* For mobile */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 700px){
     marquee{
         color: rgb(59, 77, 133);
-        margin: 22px;
+        margin: 22px 10px 10px 10px;
         padding: 1px;
         font-weight: 900;
         font-size: 30px;
@@ -118,7 +120,7 @@ a{
     }
     h2{
         color: rgb(59, 77, 133);
-        margin: 9px;
+        margin: 10px;
         padding: 2px;
         text-align: center;
         font-weight: 800;
@@ -136,8 +138,8 @@ a{
         text-align: center;
         background-color:#f16529;
         padding: 30px;
-        width: 325px;
-        height: 567px;
+        width: 100%;
+        height: 100%;
         margin-bottom:20px;
         border-radius: 20px;
     }
@@ -146,16 +148,16 @@ a{
         background-color:#51a3dc;
         padding: 30px;
         margin-bottom: 20px;
-        width: 325px;
-        height: 570px;
+        width: 100%;
+        height: 100%;
         border-radius: 20px;
     }
     .javascript{
         text-align: center;
         background-color:#ffdd14;
         padding: 30px;
-        width: 325px;
-        height: 587px;
+        width: 100%;
+        height: 100%;
         border-radius: 20px;
     }
     .main{
@@ -177,7 +179,7 @@ a{
         color: rgb(255, 255, 255);
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 16px;
         padding:0 6px 0 6px;
     }
     a{
@@ -194,10 +196,10 @@ a{
 
 /* for tablet  */
 
-@media only screen and (min-width: 769px) and (max-width:1200px){
-    h1{
+@media only screen and (min-width: 701px) and (max-width:1200px){
+    marquee{
         color: rgb(59, 77, 133);
-        margin: 25px;
+        margin: 22px 10px 10px 10px;;
         padding: 2px;
         text-align: center;
         font-weight: 900;
@@ -209,8 +211,8 @@ a{
         margin: 15px;
         padding: 2px;
         text-align: center;
-        font-weight: 800;
-        font-size: 30px;
+        font-weight: 900;
+        font-size: 32px;
         letter-spacing: 1px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
     }
@@ -223,8 +225,8 @@ a{
         text-align: center;
         background-color:#f16529;
         padding: 30px;
-        width: 780px;
-        height: 582px;
+        width: 100%;
+        height: 100%;
         margin-bottom:20px;
         border-radius: 20px;
     }
@@ -233,16 +235,24 @@ a{
         background-color:#51a3dc;
         padding: 30px;
         margin-bottom: 20px;
-        width: 780px;
-        height: 585px;
+        width: 100%;
+        height: 100%;
         border-radius: 20px;
     }
     .javascript{
         text-align: center;
         background-color:#ffdd14;
         padding: 30px;
-        width: 780px;
-        height: 602px;
+        width:100%;
+        height: 100%;
         border-radius: 20px;
+    }
+    p{
+        margin-bottom: 20px;
+        color: rgb(255, 255, 255);
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        padding:0 6px 0 6px;
     }
 }
