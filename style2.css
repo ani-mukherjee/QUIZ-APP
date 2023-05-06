@@ -255,4 +255,10 @@ a{
         font-size: 22px;
         padding:0 6px 0 6px;
     }
+    a{
+        text-decoration: none;
+        font-size: 32px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 }
