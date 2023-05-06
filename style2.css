@@ -7,7 +7,7 @@ body{
     background-image: url(https://media.istockphoto.com/id/1055056612/photo/coding-late-into-the-night.jpg?s=612x612&w=0&k=20&c=0YSrM76hg4_9CivkEwhHOkyJZWMiV-4gJjOfKeE4qUs=);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 marquee{
     color: rgb(160, 244, 51);
