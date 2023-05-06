@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(22, 21, 21);
+    background-image: url(https://media.istockphoto.com/id/1055056612/photo/coding-late-into-the-night.jpg?s=612x612&w=0&k=20&c=0YSrM76hg4_9CivkEwhHOkyJZWMiV-4gJjOfKeE4qUs=);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 form{
     width: 500px;
