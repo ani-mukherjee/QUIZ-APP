@@ -10,7 +10,6 @@ marquee{
     color: rgb(59, 77, 133);
     margin: 32px;
     padding: 2px;
-    text-align: center;
     font-weight: 900;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -112,7 +111,6 @@ a{
         color: rgb(59, 77, 133);
         margin: 22px;
         padding: 2px;
-        text-align: center;
         font-weight: 900;
         font-size: 26px;
         font-family: Georgia, 'Times New Roman', Times, serif;
