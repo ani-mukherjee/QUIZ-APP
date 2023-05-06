@@ -57,14 +57,14 @@ h2{
 }
 .javascript{
     text-align: center;
-    background-color:#ffdd14;
+    background-color:#e6c72f;
     padding: 40px;
     width: 50%;
     height: auto;
     border-radius: 25px;
 }
 .javascript:hover{
-    background-color: #e6c72f;
+    background-color: #ffdd14;
 }
 .main{
     padding: 35px;
@@ -203,7 +203,7 @@ a{
         padding: 2px;
         text-align: center;
         font-weight: 900;
-        font-size: 36px;
+        font-size: 40px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     h2{
@@ -212,7 +212,7 @@ a{
         padding: 2px;
         text-align: center;
         font-weight: 900;
-        font-size: 32px;
+        font-size: 35px;
         letter-spacing: 1px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
     }
@@ -247,12 +247,15 @@ a{
         height: 100%;
         border-radius: 20px;
     }
+    h3{
+        font-size: 29px;
+    }
     p{
         margin-bottom: 20px;
         color: rgb(255, 255, 255);
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 25px;
         padding:0 6px 0 6px;
     }
     a{
