@@ -64,9 +64,3 @@ submit.addEventListener('click',(e)=>{
     document.getElementById("solution").style.display="block";
     document.getElementById("solution").innerHTML= "Show Explanation";
 })
-
-let solution=document.getElementById("solution");
-solution.addEventListener("click",(e)=>{
-    e.preventDefault();
-    document.location.href="js-solve.html";
-})
