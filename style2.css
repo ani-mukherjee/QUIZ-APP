@@ -92,6 +92,7 @@ p{
     font-size: 16.5px;
     padding:0 5px 0 5px;
     margin-bottom: 25px;
+    text-align:justify;
 }
 button{
     width: 100%;
@@ -184,6 +185,7 @@ a{
         font-weight: bold;
         font-size: 15px;
         padding:0 6px 0 6px;
+        text-align:justify;
     }
     a{
         text-decoration: none;
@@ -260,6 +262,7 @@ a{
         font-weight: bold;
         font-size: 22px;
         padding:0 6px 0 6px;
+        text-align:justify;
     }
     a{
         text-decoration: none;
