@@ -50,13 +50,13 @@ submit.addEventListener('click',(e)=>{
         document.getElementById("result").innerHTML= `Well Done. You got<br>${count} /10`;
     }
     else if(count>=6){
-        document.getElementById("result").innerHTML= `Good score. You got<br>${count} /10<br> Keep it up.`;
+        document.getElementById("result").innerHTML= `Good score. You got<br>${count} /10 <br> Keep it up.`;
     }
     else if(count>=4){
         document.getElementById("result").innerHTML= `Moderate score! You got<br>${count} /10 <br> You need to practice more.`; 
     }
     else if(count>=1){
-        document.getElementById("result").innerHTML= `Poor score!! You got<br>${count} /10.<br> You need to improve.`; 
+        document.getElementById("result").innerHTML= `Poor score!! You got<br>${count} /10 <br> You need to improve.`; 
     }
     else{
         document.getElementById("result").innerHTML= `Sorry!! Either You got<br>${count} /10 <br>or didn't give any answer.`; 
