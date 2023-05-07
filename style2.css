@@ -115,7 +115,7 @@ a{
 @media only screen and (max-width: 700px){
     marquee{
         color:  rgb(160, 244, 51);
-        margin: 22px 10px 10px 10px;
+        margin: 22px 10px 9px 10px;
         padding: 1px;
         font-weight: 900;
         font-size: 30px;
