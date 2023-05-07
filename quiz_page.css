@@ -55,7 +55,7 @@ p{
 }
 #solution{
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-decoration: none;
     padding: 3px;
     color: rgb(0, 64, 9);
@@ -94,7 +94,7 @@ p{
     }
     #solution{
         text-align: center;
-        text-transform: uppercase;
+        text-transform: capitalize;
         text-decoration: none;
         padding: 2px;
         color: rgb(0, 64, 9);

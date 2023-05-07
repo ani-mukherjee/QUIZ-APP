@@ -62,5 +62,5 @@ submit.addEventListener('click',(e)=>{
         document.getElementById("result").innerHTML= `Sorry!! Either You got<br>${count} /10 <br>or didn't give any answer.`; 
     }
     document.getElementById("solution").style.display="block";
-    document.getElementById("solution").innerHTML= "Show Explanation";
+    document.getElementById("solution").innerHTML= "View Solution";
 })
