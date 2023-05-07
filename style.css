@@ -19,6 +19,7 @@ form{
     color: rgb(34, 107, 73);
     font-weight: 600;
     border-radius: 20px;
+    text-align: justify;
 }
 h1{
     text-align: center;
@@ -78,6 +79,7 @@ p{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:rgb(34, 107, 73);
         border-radius: 20px;
+        text-align: justify;
     }
     h1{
         font-size: 23px;
